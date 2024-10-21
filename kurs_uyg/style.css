@@ -1,0 +1,12 @@
+#image {
+    width: 100%;        /* Genişliği tam yap (bulunduğu kapsayıcıya göre) */
+    max-width: 300px;   /* Maksimum genişliği sabitle */
+    white-space: nowrap; /* İçerik tek satırda kalır, taşarsa kaydırma olur */
+    overflow: hidden;   /* Taşan kısmı gizle */
+    text-overflow: ellipsis; /* Taşan kısmı üç nokta (...) ile göster */
+}
+
+/* Tablodaki resimleri sabit boyutla ayarlıyoruz */
+table img {
+    width: 100px;    
+}
