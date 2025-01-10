@@ -1,4 +1,4 @@
-const api_key = "d715af3ef7947d5b79502033";
+const api_key = "";
 const url = "https://v6.exchangerate-api.com/v6/" + api_key;
 
 //elments
